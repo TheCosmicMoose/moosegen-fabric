@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "moosegen:mangrove",
+    "features": [
+      {
+        "chance": 0.15,
+        "feature": "moosegen:tall_mangrove"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "moosegen:tall_birch",
+    "features": [
+      {
+        "chance": 0.0125,
+        "feature": "moosegen:fallen_birch"
+      },
+      {
+        "chance": 0.3333333,
+        "feature": "moosegen:tall_birch_bees_wildflowers"
+      },
+      {
+        "chance": 0.1,
+        "feature": "moosegen:branching_birch_leaf_litter"
+      },
+      {
+        "chance": 0.2,
+        "feature": "moosegen:branching_birch_wildflowers"
+      }
+    ]
+  }
+}

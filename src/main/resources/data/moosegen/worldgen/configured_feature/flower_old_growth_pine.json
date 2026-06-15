@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:noise_threshold_provider",
+      "default_state": {
+        "Name": "minecraft:poppy"
+      },
+      "high_chance": 0.33333334,
+      "high_states": [
+        {
+          "Name": "minecraft:poppy"
+        },
+        {
+          "Name": "minecraft:blue_orchid"
+        }
+      ],
+      "low_states": [
+        {
+          "Name": "minecraft:torchflower"
+        },
+        {
+          "Name": "minecraft:pitcher_plant",
+          "Properties": {
+            "half": "lower"
+          }
+        },
+        {
+          "Name": "minecraft:small_dripleaf",
+          "Properties": {
+            "half": "lower",
+            "waterlogged": "false"
+          }
+        }
+      ],
+      "noise": {
+        "amplitudes": [
+          1
+        ],
+        "firstOctave": 0
+      },
+      "scale": 0.005,
+      "seed": 2345,
+      "threshold": -0.8
+    }
+  }
+}

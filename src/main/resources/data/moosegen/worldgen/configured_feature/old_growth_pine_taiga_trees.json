@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "moosegen:pine",
+    "features": [
+      {
+        "chance": 0.025641026,
+        "feature": "moosegen:mega_pine_pumpkin"
+      },
+      {
+        "chance": 0.15,
+        "feature": "moosegen:mega_pine"
+      },
+      {
+        "chance": 0.15,
+        "feature": "moosegen:pine_colored_leaves"
+      },
+      {
+        "chance": 0.0125,
+        "feature": "moosegen:fallen_pine"
+      },
+      {
+        "chance": 0.15,
+        "feature": "moosegen:mega_pine_colored_leaves"
+      }
+    ]
+  }
+}

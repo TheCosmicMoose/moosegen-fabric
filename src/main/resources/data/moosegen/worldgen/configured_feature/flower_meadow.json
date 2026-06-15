@@ -1,0 +1,155 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:noise_threshold_provider",
+      "default_state": {
+        "Name": "minecraft:cornflower"
+      },
+      "high_chance": 0.33333334,
+      "high_states": [
+        {
+          "Name": "minecraft:dandelion"
+        },
+        {
+          "Name": "minecraft:azure_bluet"
+        },
+        {
+          "Name": "minecraft:wildflowers",
+          "Properties": {
+            "facing": "north",
+            "flower_amount": "1"
+          }
+        },
+        {
+          "Name": "minecraft:wildflowers",
+          "Properties": {
+            "facing": "north",
+            "flower_amount": "2"
+          }
+        },
+        {
+          "Name": "minecraft:wildflowers",
+          "Properties": {
+            "facing": "north",
+            "flower_amount": "3"
+          }
+        },
+        {
+          "Name": "minecraft:wildflowers",
+          "Properties": {
+            "facing": "north",
+            "flower_amount": "4"
+          }
+        },
+        {
+          "Name": "minecraft:wildflowers",
+          "Properties": {
+            "facing": "south",
+            "flower_amount": "1"
+          }
+        },
+        {
+          "Name": "minecraft:wildflowers",
+          "Properties": {
+            "facing": "south",
+            "flower_amount": "2"
+          }
+        },
+        {
+          "Name": "minecraft:wildflowers",
+          "Properties": {
+            "facing": "south",
+            "flower_amount": "3"
+          }
+        },
+        {
+          "Name": "minecraft:wildflowers",
+          "Properties": {
+            "facing": "south",
+            "flower_amount": "4"
+          }
+        },
+        {
+          "Name": "minecraft:wildflowers",
+          "Properties": {
+            "facing": "west",
+            "flower_amount": "1"
+          }
+        },
+        {
+          "Name": "minecraft:wildflowers",
+          "Properties": {
+            "facing": "west",
+            "flower_amount": "2"
+          }
+        },
+        {
+          "Name": "minecraft:wildflowers",
+          "Properties": {
+            "facing": "west",
+            "flower_amount": "3"
+          }
+        },
+        {
+          "Name": "minecraft:wildflowers",
+          "Properties": {
+            "facing": "west",
+            "flower_amount": "4"
+          }
+        },
+        {
+          "Name": "minecraft:wildflowers",
+          "Properties": {
+            "facing": "east",
+            "flower_amount": "1"
+          }
+        },
+        {
+          "Name": "minecraft:wildflowers",
+          "Properties": {
+            "facing": "east",
+            "flower_amount": "2"
+          }
+        },
+        {
+          "Name": "minecraft:wildflowers",
+          "Properties": {
+            "facing": "east",
+            "flower_amount": "3"
+          }
+        },
+        {
+          "Name": "minecraft:wildflowers",
+          "Properties": {
+            "facing": "east",
+            "flower_amount": "4"
+          }
+        }
+      ],
+      "low_states": [
+        {
+          "Name": "minecraft:lily_of_the_valley"
+        },
+        {
+          "Name": "minecraft:oxeye_daisy",
+          "Properties": {
+            "half": "lower"
+          }
+        },
+        {
+          "Name": "minecraft:blue_orchid"
+        }
+      ],
+      "noise": {
+        "amplitudes": [
+          1
+        ],
+        "firstOctave": 0
+      },
+      "scale": 0.005,
+      "seed": 2345,
+      "threshold": -0.8
+    }
+  }
+}

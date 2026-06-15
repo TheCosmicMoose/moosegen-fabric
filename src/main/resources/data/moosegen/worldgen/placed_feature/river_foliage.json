@@ -1,0 +1,31 @@
+{
+  "feature": "moosegen:river_foliage",
+  "placement": [
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 64
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_fluids",
+        "offset": [
+          0,
+          1,
+          0
+        ],
+        "fluids": "#minecraft:water"
+      }
+    }
+  ]
+}

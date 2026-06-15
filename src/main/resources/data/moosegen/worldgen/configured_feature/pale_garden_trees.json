@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "moosegen:marsh_pale_oak",
+    "features": [
+      {
+        "chance": 0.1,
+        "feature": "moosegen:pale_oak_creaking"
+      },
+      {
+        "chance": 0.5,
+        "feature": "moosegen:marsh_pale_oak"
+      },
+      {
+        "chance": 0.2,
+        "feature": "moosegen:pale_bush"
+      }
+    ]
+  }
+}

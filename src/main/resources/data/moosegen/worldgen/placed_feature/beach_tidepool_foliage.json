@@ -1,0 +1,9 @@
+{
+  "feature": "moosegen:beach_tidepool_foliage",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 1
+    }
+  ]
+}

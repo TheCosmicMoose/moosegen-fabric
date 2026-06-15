@@ -1,0 +1,9 @@
+{
+  "feature": "moosegen:oasis_pool_foliage",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 0
+    }
+  ]
+}

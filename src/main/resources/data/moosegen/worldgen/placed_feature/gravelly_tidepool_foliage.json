@@ -1,0 +1,9 @@
+{
+  "feature": "moosegen:gravelly_tidepool_foliage",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 0
+    }
+  ]
+}

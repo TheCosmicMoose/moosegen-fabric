@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "moosegen:spruce_colored_leaves",
+    "features": [
+      {
+        "chance": 0.333334,
+        "feature": "moosegen:pine"
+      },
+      {
+        "chance": 0.33333334,
+        "feature": "moosegen:pine_colored_leaves"
+      },
+      {
+        "chance": 0.0125,
+        "feature": "moosegen:fallen_pine"
+      }
+    ]
+  }
+}

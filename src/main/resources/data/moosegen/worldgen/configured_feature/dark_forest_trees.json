@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "moosegen:redwood",
+    "features": [
+      {
+        "chance": 0.1,
+        "feature": "moosegen:mega_redwood_colored_leaves"
+      },
+      {
+        "chance": 0.1,
+        "feature": "moosegen:mega_redwood_pumpkin"
+      },
+      {
+        "chance": 0.1,
+        "feature": "moosegen:mega_redwood"
+      },
+      {
+        "chance": 0.15,
+        "feature": "moosegen:redwood_colored_leaves"
+      },
+      {
+        "chance": 0.0125,
+        "feature": "moosegen:fallen_redwood"
+      },
+      {
+        "chance": 0.1,
+        "feature": "moosegen:small_redwood"
+      },
+      {
+        "chance": 0.05,
+        "feature": "moosegen:huge_red_mushroom"
+      },
+      {
+        "chance": 0.05,
+        "feature": "moosegen:huge_brown_mushroom"
+      }
+    ]
+  }
+}

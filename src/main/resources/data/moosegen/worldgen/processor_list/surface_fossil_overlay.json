@@ -1,0 +1,32 @@
+[
+  {
+    "processor_type": "minecraft:rule",
+    "rules": [
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:bone_block",
+          "probability": 0.01
+        },
+        "output_state": {
+          "Name": "minecraft:coal_ore"
+        }
+      }
+    ]
+  },
+  {
+    "processor_type": "minecraft:block_rot",
+    "integrity": 0.5,
+    "rottable_blocks": [
+      "minecraft:coal_ore"
+    ]
+  },
+  {
+    "processor_type": "minecraft:gravity",
+    "heightmap": "WORLD_SURFACE",
+    "offset": -9
+  }
+]

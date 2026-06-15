@@ -1,0 +1,172 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:rule_based_state_provider",
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_fluids",
+                "fluids": "#minecraft:water"
+              },
+              {
+                "type": "minecraft:matching_block_tag",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ],
+                "tag": "minecraft:sand"
+              }
+            ]
+          },
+          "then": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:sea_pickle",
+                  "Properties": {
+                    "pickles": "1",
+                    "waterlogged": "true"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:sea_pickle",
+                  "Properties": {
+                    "pickles": "2",
+                    "waterlogged": "true"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:sea_pickle",
+                  "Properties": {
+                    "pickles": "3",
+                    "waterlogged": "true"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:sea_pickle",
+                  "Properties": {
+                    "pickles": "4",
+                    "waterlogged": "true"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:seagrass"
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:brain_coral",
+                  "Properties": {
+                    "waterlogged": "true"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:bubble_coral",
+                  "Properties": {
+                    "waterlogged": "true"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:fire_coral",
+                  "Properties": {
+                    "waterlogged": "true"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:tube_coral",
+                  "Properties": {
+                    "waterlogged": "true"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:horn_coral",
+                  "Properties": {
+                    "waterlogged": "true"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:brain_coral_fan",
+                  "Properties": {
+                    "waterlogged": "true"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:bubble_coral_fan",
+                  "Properties": {
+                    "waterlogged": "true"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:fire_coral_fan",
+                  "Properties": {
+                    "waterlogged": "true"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:tube_coral_fan",
+                  "Properties": {
+                    "waterlogged": "true"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:horn_coral_fan",
+                  "Properties": {
+                    "waterlogged": "true"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "schedule_tick": true
+  }
+}

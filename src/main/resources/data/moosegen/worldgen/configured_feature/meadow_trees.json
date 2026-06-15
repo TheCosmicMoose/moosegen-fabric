@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "moosegen:grove_oak",
+    "features": [
+      {
+        "chance": 0.333333,
+        "feature": "moosegen:fancy_grove_oak"
+      },
+      {
+        "chance": 0.1,
+        "feature": "moosegen:old_oak_bees"
+      }
+    ]
+  }
+}

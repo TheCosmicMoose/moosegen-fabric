@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "moosegen:pale_redwood",
+    "features": [
+      {
+        "chance": 0.2,
+        "feature": "moosegen:scorched_redwood"
+      },
+      {
+        "chance": 0.15,
+        "feature": "moosegen:scorched_redwood_alt_leaves"
+      },
+      {
+        "chance": 0.15,
+        "feature": "moosegen:scorched_stump"
+      },
+      {
+        "chance": 0.0125,
+        "feature": "moosegen:fallen_pale_oak"
+      },
+      {
+        "chance": 0.1,
+        "feature": "moosegen:small_pale_redwood"
+      }
+    ]
+  }
+}

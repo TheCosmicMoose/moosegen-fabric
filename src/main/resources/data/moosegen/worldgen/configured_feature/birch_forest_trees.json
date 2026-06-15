@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "moosegen:birch_bees",
+    "features": [
+      {
+        "chance": 0.5,
+        "feature": "moosegen:birch_bees_wildflowers"
+      },
+      {
+        "chance": 0.0125,
+        "feature": "minecraft:fallen_birch_tree"
+      }
+    ]
+  }
+}

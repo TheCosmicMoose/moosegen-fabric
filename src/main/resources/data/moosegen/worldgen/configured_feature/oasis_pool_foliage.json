@@ -1,0 +1,82 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:rule_based_state_provider",
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:matching_fluids",
+            "fluids": "#minecraft:water"
+          },
+          "then": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:sea_pickle",
+                  "Properties": {
+                    "pickles": "1",
+                    "waterlogged": "true"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:sea_pickle",
+                  "Properties": {
+                    "pickles": "2",
+                    "waterlogged": "true"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:sea_pickle",
+                  "Properties": {
+                    "pickles": "3",
+                    "waterlogged": "true"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:sea_pickle",
+                  "Properties": {
+                    "pickles": "4",
+                    "waterlogged": "true"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:big_dripleaf",
+                  "Properties": {
+                    "tilt": "none",
+                    "waterlogged": "true"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:small_dripleaf",
+                  "Properties": {
+                    "half": "upper",
+                    "waterlogged": "true"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "schedule_tick": true
+  }
+}

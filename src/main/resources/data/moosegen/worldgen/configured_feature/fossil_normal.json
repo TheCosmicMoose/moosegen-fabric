@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:fossil",
+  "config": {
+    "max_empty_corners_allowed": 4,
+    "fossil_structures": [
+      "moosegen:fossil1_bone",
+      "moosegen:fossil2_bone"
+    ],
+    "overlay_structures": [
+      "moosegen:fossil1_coal",
+      "moosegen:fossil2_coal"
+    ],
+    "fossil_processors": "minecraft:fossil_rot",
+    "overlay_processors": "minecraft:fossil_coal"
+  }
+}

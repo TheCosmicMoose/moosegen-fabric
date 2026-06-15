@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "moosegen:baobab",
+    "features": [
+      {
+        "chance": 0.8,
+        "feature": "moosegen:baobab_ground"
+      },
+      {
+        "chance": 0.0125,
+        "feature": "moosegen:fallen_acacia"
+      },
+      {
+        "chance": 0.0125,
+        "feature": "moosegen:savannah_bush"
+      }
+    ]
+  }
+}

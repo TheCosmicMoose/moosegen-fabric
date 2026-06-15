@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:spike",
+  "config": {
+    "state": {
+      "Name": "minecraft:dripstone_block"
+    },
+    "can_place_on": {
+      "type": "minecraft:any_of",
+      "predicates": [
+        {
+          "type": "minecraft:matching_block_tag",
+          "tag": "minecraft:base_stone_overworld"
+        },
+        {
+          "type": "minecraft:matching_block_tag",
+          "tag": "minecraft:dirt"
+        },
+        {
+          "type": "minecraft:matching_block_tag",
+          "tag": "minecraft:badlands_terracotta"
+        }
+      ]
+    },
+    "can_replace": {
+      "type": "minecraft:any_of",
+      "predicates": [
+        {
+          "type": "minecraft:matching_block_tag",
+          "tag": "minecraft:badlands_terracotta"
+        },
+        {
+          "type": "minecraft:matching_block_tag",
+          "tag": "minecraft:base_stone_overworld"
+        },
+        {
+          "type": "minecraft:matching_block_tag",
+          "tag": "minecraft:dirt"
+        },
+        {
+          "type": "minecraft:matching_blocks",
+          "blocks": "#minecraft:air"
+        }
+      ]
+    }
+  }
+}

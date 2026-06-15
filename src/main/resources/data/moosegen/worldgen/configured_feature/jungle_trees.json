@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "moosegen:jungle",
+    "features": [
+      {
+        "chance": 0.1,
+        "feature": "moosegen:fancy_oak_bees"
+      },
+      {
+        "chance": 0.5,
+        "feature": "moosegen:jungle_bush"
+      },
+      {
+        "chance": 0.15,
+        "feature": "moosegen:mega_jungle"
+      },
+      {
+        "chance": 0.0125,
+        "feature": "moosegen:fallen_jungle"
+      },
+      {
+        "chance": 0.15,
+        "feature": "moosegen:mega_jungle_melons"
+      }
+    ]
+  }
+}

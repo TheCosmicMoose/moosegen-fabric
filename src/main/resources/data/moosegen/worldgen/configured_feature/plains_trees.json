@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": "moosegen:oak_bees",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.33333334,
+        "feature": {
+          "feature": "moosegen:fancy_oak_bees",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.0125,
+        "feature": "moosegen:fallen_oak"
+      },
+      {
+        "chance": 0.1,
+        "feature": "moosegen:old_oak_bees"
+      },
+      {
+       "chance": 0.25,
+        "feature": "moosegen:plains_bush"
+      }
+    ]
+  }
+}
